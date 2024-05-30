@@ -36,7 +36,11 @@ public class SpringDataJpaApplication {
 	
 //	find by name
 	
-	User u=userDao.findByName("shyam sundar");
+//	User u=userDao.findByName("shyam sundar");
+//	System.out.println(u);
+	
+	
+	User u=userDao.findByAddress("jajpur town");
 	System.out.println(u);
 	}
 

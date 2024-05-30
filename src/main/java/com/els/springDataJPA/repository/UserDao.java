@@ -9,4 +9,5 @@ import com.els.springDataJPA.entity.User;
 public interface UserDao extends JpaRepository<User, Integer>{
 
 	  public User findByName(String name);
+	  public User findByAddress(String name);
 }
